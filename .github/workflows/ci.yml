@@ -23,7 +23,7 @@ jobs:
       SOURCES: '["JIRA", "GITHUB"]'
       
       # Secure token passed directly (not echoed, not saved in file)
-      GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+      GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout code
