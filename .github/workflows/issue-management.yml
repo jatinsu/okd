@@ -24,7 +24,7 @@ jobs:
         id: ai-assessment
         uses: github/ai-assessment-comment-labeler@v1.0.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_API_TOKEN }}
           issue_number: ${{ github.event.issue.number }}
           issue_body: ${{ github.event.issue.body }}
           repo_name: ${{ github.event.repository.name }}
