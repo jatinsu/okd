@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report a bug in OKD
 projects: ["okd-project/5"]
-labels: ["kind/bug"]
+labels: ["status/needs-triage", "kind/bug"]
 type: Bug
 body:
     - type: markdown
